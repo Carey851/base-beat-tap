@@ -9,3 +9,5 @@ yarn-error.log*
 *.log
 *.tsbuildinfo
 .DS_Store
+
+.vercel

@@ -1,7 +1,7 @@
 "use client";
 
 import { Activity, Cable, Disc3, Music2, Plug, Radio, Unplug, Wallet, X, Zap } from "lucide-react";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { BaseError, Connector } from "wagmi";
 import {
   useAccount,
@@ -141,14 +141,17 @@ export default function Home() {
     chainId: base.id,
     query: {
       enabled: Boolean(hash),
-      onSuccess: () => {
-        void refetchLatestBeat();
-        void refetchUserBeats();
-        void refetchTotalBeats();
-        void refetchBeatMix();
-      },
     },
   });
+
+  useEffect(() => {
+    if (!isConfirmed) return;
+
+    void refetchLatestBeat();
+    void refetchUserBeats();
+    void refetchTotalBeats();
+    void refetchBeatMix();
+  }, [isConfirmed, refetchBeatMix, refetchLatestBeat, refetchTotalBeats, refetchUserBeats]);
 
   const transactionStatus = error ? "Failed" : isWriting ? "Pending" : isConfirming ? "Confirming" : isConfirmed ? "Success" : hash ? "Submitted" : "Ready";
 

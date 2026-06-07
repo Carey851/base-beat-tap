@@ -9,6 +9,7 @@ import { base } from "wagmi/chains";
 import type { EIP1193Provider } from "viem";
 
 const coinbaseWallet = runtimeCoinbaseWallet as typeof typedCoinbaseWallet;
+const walletProvider = (provider: (window: unknown) => InjectedProvider | undefined) => provider as never;
 
 type InjectedProvider = EIP1193Provider & {
   providers?: InjectedProvider[];
@@ -41,13 +42,17 @@ type WalletWindow = Window & {
   okxwallet?: InjectedProvider;
 };
 
-function injectedProviders(window: WalletWindow | undefined) {
-  const ethereum = window?.ethereum;
+function asWalletWindow(window: unknown) {
+  return window as WalletWindow | undefined;
+}
+
+function injectedProviders(walletWindow: WalletWindow | undefined) {
+  const ethereum = walletWindow?.ethereum;
   return (ethereum?.providers ?? [ethereum]).filter(Boolean) as InjectedProvider[];
 }
 
-function findOkxProvider(window: Window | undefined) {
-  const walletWindow = window as WalletWindow | undefined;
+function findOkxProvider(window: unknown) {
+  const walletWindow = asWalletWindow(window);
   const okxwallet = walletWindow?.okxwallet;
 
   if (okxwallet?.isOkxWallet) return okxwallet.ethereum ?? okxwallet;
@@ -55,8 +60,8 @@ function findOkxProvider(window: Window | undefined) {
   return injectedProviders(walletWindow).find((provider) => Boolean(provider.isOkxWallet || provider.isOKExWallet));
 }
 
-function findMetaMaskProvider(window: Window | undefined) {
-  const walletWindow = window as WalletWindow | undefined;
+function findMetaMaskProvider(window: unknown) {
+  const walletWindow = asWalletWindow(window);
   const okxProvider = findOkxProvider(window);
   const fakeMetaMaskFlags: (keyof InjectedProvider)[] = [
     "isApexWallet",
@@ -104,7 +109,7 @@ export const wagmiConfig = createConfig({
       target: {
         id: "base-app",
         name: "Base App / Browser",
-        provider: (window?: Window) => (window as WalletWindow | undefined)?.ethereum,
+        provider: walletProvider((window) => asWalletWindow(window)?.ethereum),
       },
     }),
     injected({
@@ -112,7 +117,7 @@ export const wagmiConfig = createConfig({
       target: {
         id: "metamask",
         name: "MetaMask",
-        provider: findMetaMaskProvider,
+        provider: walletProvider(findMetaMaskProvider),
       },
     }),
     injected({
@@ -120,7 +125,7 @@ export const wagmiConfig = createConfig({
       target: {
         id: "okx",
         name: "OKX Wallet",
-        provider: findOkxProvider,
+        provider: walletProvider(findOkxProvider),
       },
     }),
     coinbaseWallet({
