@@ -93,13 +93,16 @@ function findMetaMaskProvider(window: unknown) {
   });
 }
 
-export const BUILDER_CODE = process.env.NEXT_PUBLIC_BASE_BUILDER_CODE ?? "";
+export const DEFAULT_BUILDER_CODE = "bc_5lsxpizw";
+export const DEFAULT_DATA_SUFFIX = "0x62635f356c737870697a770b0080218021802180218021802180218021";
+export const BUILDER_CODE = process.env.NEXT_PUBLIC_BASE_BUILDER_CODE ?? DEFAULT_BUILDER_CODE;
 
-export const DATA_SUFFIX = (BUILDER_CODE
-  ? Attribution.toDataSuffix({
-      codes: [BUILDER_CODE],
-    })
-  : "0x") as `0x${string}`;
+export const DATA_SUFFIX = (process.env.NEXT_PUBLIC_BASE_DATA_SUFFIX ??
+  (BUILDER_CODE
+    ? Attribution.toDataSuffix({
+        codes: [BUILDER_CODE],
+      })
+    : DEFAULT_DATA_SUFFIX)) as `0x${string}`;
 
 export const wagmiConfig = createConfig({
   chains: [base],
