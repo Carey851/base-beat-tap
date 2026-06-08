@@ -31,3 +31,13 @@ git clone https://github.com/Carey851/base-beat-tap.git
 ```
 
 Then move into the project directory:
+
+```bash
+cd base-beat-tap
+```
+
+## Setup
+
+After cloning the repository, review the project files to determine the required runtime, package manager, or build tools.
+
+Look for common project files such as:
