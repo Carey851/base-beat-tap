@@ -58,3 +58,11 @@ For example, if the project contains a `package.json`, you may need to run:
 ```bash
 npm install
 ```
+
+If the project contains a Python dependency file, you may need to create a virtual environment and install dependencies according to that file.
+
+## Usage
+
+After setup, inspect the available scripts, entry points, or commands provided by the repository.
+
+Common places to check include:
