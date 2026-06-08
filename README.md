@@ -41,3 +41,11 @@ cd base-beat-tap
 After cloning the repository, review the project files to determine the required runtime, package manager, or build tools.
 
 Look for common project files such as:
+
+- `package.json`
+- `requirements.txt`
+- `pyproject.toml`
+- `Cargo.toml`
+- `go.mod`
+- `Makefile`
+- `README.md`
