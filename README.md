@@ -152,3 +152,11 @@ Before submitting changes:
 ## Notes
 
 This README is intentionally general because the original documentation only identified the project name and repository URL.
+
+As the project develops, this file should be updated with more specific information, such as:
+
+- Required runtime versions
+- Installation commands
+- Development commands
+- Build instructions
+- Test instructions
