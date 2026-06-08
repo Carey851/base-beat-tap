@@ -126,3 +126,11 @@ Check the project files for the correct test command.
 Possible examples include:
 
 ```bash
+npm test
+```
+
+or:
+
+```bash
+make test
+```
