@@ -118,3 +118,11 @@ When documenting the project further, consider adding a section that explains:
 Keeping this section current will make the project easier to understand and maintain.
 
 ## Testing
+
+If the repository includes tests, run them before committing changes.
+
+Check the project files for the correct test command.
+
+Possible examples include:
+
+```bash
