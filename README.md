@@ -142,3 +142,13 @@ Use the command that matches the tools and configuration included in this reposi
 Contributions should be small, clear, and easy to review.
 
 Before submitting changes:
+
+- Keep formatting consistent with the existing project.
+- Avoid unrelated edits in the same commit.
+- Update documentation when behavior or setup steps change.
+- Run available checks before pushing.
+- Write commit messages that describe the purpose of the change.
+
+## Notes
+
+This README is intentionally general because the original documentation only identified the project name and repository URL.
