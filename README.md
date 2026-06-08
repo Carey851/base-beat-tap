@@ -134,3 +134,11 @@ or:
 ```bash
 make test
 ```
+
+Use the command that matches the tools and configuration included in this repository.
+
+## Contributing
+
+Contributions should be small, clear, and easy to review.
+
+Before submitting changes:
