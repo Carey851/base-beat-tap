@@ -83,3 +83,12 @@ npm run
 ```
 
 Then run the relevant command shown by the project.
+
+## Development Workflow
+
+A typical workflow for working on this repository is:
+
+1. Clone the repository.
+2. Create a new branch for your changes.
+3. Review the existing files and project structure.
+4. Make focused updates.
