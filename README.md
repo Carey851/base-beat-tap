@@ -160,3 +160,12 @@ As the project develops, this file should be updated with more specific informat
 - Development commands
 - Build instructions
 - Test instructions
+- Configuration details
+- Deployment steps
+- Troubleshooting guidance
+
+## License
+
+No license information was provided in the original README.
+
+If this project is intended for public use or distribution, add a license file and reference it here.
