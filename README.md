@@ -101,3 +101,11 @@ Example branch command:
 ```bash
 git checkout -b feature/your-change-name
 ```
+
+## Project Structure
+
+The exact structure may change over time.
+
+When documenting the project further, consider adding a section that explains:
+
+- Main source directories
