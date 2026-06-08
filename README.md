@@ -15,3 +15,11 @@ Because the original project documentation is minimal, this README focuses on pr
 Use this document as a starting point when setting up the project locally or sharing it with other contributors.
 
 ## Features
+
+- Project repository hosted on GitHub.
+- Simple project identity under the name `BaseBeatTap`.
+- Clear setup instructions for cloning and preparing the repository.
+- Practical usage guidance that can be expanded as the project grows.
+- Notes for contributors and maintainers.
+
+## Repository
