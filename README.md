@@ -23,3 +23,11 @@ Use this document as a starting point when setting up the project locally or sha
 - Notes for contributors and maintainers.
 
 ## Repository
+
+Clone the project from GitHub:
+
+```bash
+git clone https://github.com/Carey851/base-beat-tap.git
+```
+
+Then move into the project directory:
