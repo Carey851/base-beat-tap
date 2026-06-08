@@ -75,3 +75,11 @@ Common places to check include:
 - Configuration files
 
 If command scripts are defined, run the appropriate script for development, testing, or building the project.
+
+For example, in projects that use npm scripts, available commands can usually be reviewed with:
+
+```bash
+npm run
+```
+
+Then run the relevant command shown by the project.
