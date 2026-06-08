@@ -49,3 +49,12 @@ Look for common project files such as:
 - `go.mod`
 - `Makefile`
 - `README.md`
+- Configuration files or scripts in the project root
+
+If a dependency manifest is present, install dependencies using the matching tool for the project.
+
+For example, if the project contains a `package.json`, you may need to run:
+
+```bash
+npm install
+```
