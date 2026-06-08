@@ -66,3 +66,12 @@ If the project contains a Python dependency file, you may need to create a virtu
 After setup, inspect the available scripts, entry points, or commands provided by the repository.
 
 Common places to check include:
+
+- The project root directory
+- Any `src` or `app` directory
+- Script entries in a dependency manifest
+- Shell scripts or command files
+- Existing test files
+- Configuration files
+
+If command scripts are defined, run the appropriate script for development, testing, or building the project.
