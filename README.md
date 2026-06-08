@@ -92,3 +92,12 @@ A typical workflow for working on this repository is:
 2. Create a new branch for your changes.
 3. Review the existing files and project structure.
 4. Make focused updates.
+5. Run any available tests or checks.
+6. Commit your changes with a clear message.
+7. Push your branch and open a pull request if applicable.
+
+Example branch command:
+
+```bash
+git checkout -b feature/your-change-name
+```
