@@ -109,3 +109,12 @@ The exact structure may change over time.
 When documenting the project further, consider adding a section that explains:
 
 - Main source directories
+- Important configuration files
+- Build or runtime entry points
+- Test locations
+- Asset or data directories
+- Deployment-related files, if any
+
+Keeping this section current will make the project easier to understand and maintain.
+
+## Testing
