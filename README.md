@@ -62,3 +62,9 @@ cd base-beat-tap
 Next, inspect the project files to determine the required environment.
 
 If the project includes dependency files, install dependencies using the appropriate tool for the project.
+
+For example, use the command that matches the files present in the repository.
+
+## Usage
+
+After setup, run the project using the commands provided by the project files or future documentation.
