@@ -17,3 +17,10 @@ Because the original documentation is minimal, this guide focuses on practical s
 Clone the repository with:
 
 ```bash
+git clone https://github.com/Carey851/base-beat-tap.git
+```
+
+Then enter the project directory:
+
+```bash
+cd base-beat-tap
