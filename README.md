@@ -36,3 +36,9 @@ BaseBeatTap currently provides:
 - A place to document setup, usage, and contribution details as the project grows.
 
 Additional features should be documented here as they are implemented.
+
+## Project Structure
+
+After cloning the repository, review the files and folders in the project root.
+
+Useful files to look for may include:
