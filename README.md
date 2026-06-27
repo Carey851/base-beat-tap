@@ -24,3 +24,8 @@ Then enter the project directory:
 
 ```bash
 cd base-beat-tap
+```
+
+## Features
+
+BaseBeatTap currently provides:
