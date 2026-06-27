@@ -42,3 +42,10 @@ Additional features should be documented here as they are implemented.
 After cloning the repository, review the files and folders in the project root.
 
 Useful files to look for may include:
+
+- `README.md` for project documentation.
+- Package or dependency files for setup instructions.
+- Source directories containing the main project code.
+- Configuration files for development tools or build steps.
+
+The exact structure may change as the project develops.
