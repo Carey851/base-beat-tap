@@ -88,3 +88,9 @@ When working on BaseBeatTap:
 - Prefer small, focused changes that are easy to review.
 - Add comments where they improve understanding.
 - Record important project decisions in this README or another documentation file.
+
+## Contributing
+
+Contributions should follow the conventions already present in the repository.
+
+Before submitting changes:
