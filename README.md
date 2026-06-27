@@ -75,3 +75,8 @@ As the project matures, this section should include:
 
 - How to start the project locally.
 - How to run tests, if tests are included.
+- How to build the project, if a build step is required.
+- Any required configuration values.
+- Example workflows for common tasks.
+
+## Development Notes
