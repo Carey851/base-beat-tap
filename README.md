@@ -49,3 +49,10 @@ Useful files to look for may include:
 - Configuration files for development tools or build steps.
 
 The exact structure may change as the project develops.
+
+## Setup
+
+Start by cloning the repository:
+
+```bash
+git clone https://github.com/Carey851/base-beat-tap.git
