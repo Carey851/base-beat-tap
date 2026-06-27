@@ -80,3 +80,11 @@ As the project matures, this section should include:
 - Example workflows for common tasks.
 
 ## Development Notes
+
+When working on BaseBeatTap:
+
+- Keep documentation up to date as features are added.
+- Document any required setup steps clearly.
+- Prefer small, focused changes that are easy to review.
+- Add comments where they improve understanding.
+- Record important project decisions in this README or another documentation file.
