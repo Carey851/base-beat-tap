@@ -99,3 +99,11 @@ Before submitting changes:
 2. Make a focused change.
 3. Test the change if the project includes a test process.
 4. Update documentation when behavior or setup steps change.
+
+## Troubleshooting
+
+If setup or usage is unclear:
+
+- Confirm that the repository was cloned successfully.
+- Check the project root for dependency or configuration files.
+- Review any scripts or commands defined by the project.
