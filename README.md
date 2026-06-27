@@ -11,3 +11,9 @@ BaseBeatTap is the repository for the BaseBeatTap project.
 This README provides a clean starting point for understanding, setting up, and working with the project.
 
 Because the original documentation is minimal, this guide focuses on practical steps that are safe to follow without assuming a specific framework, runtime, or deployment target.
+
+## Repository
+
+Clone the repository with:
+
+```bash
