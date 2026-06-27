@@ -56,3 +56,9 @@ Start by cloning the repository:
 
 ```bash
 git clone https://github.com/Carey851/base-beat-tap.git
+cd base-beat-tap
+```
+
+Next, inspect the project files to determine the required environment.
+
+If the project includes dependency files, install dependencies using the appropriate tool for the project.
