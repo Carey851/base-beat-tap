@@ -68,3 +68,10 @@ For example, use the command that matches the files present in the repository.
 ## Usage
 
 After setup, run the project using the commands provided by the project files or future documentation.
+
+If no run command is documented yet, inspect available scripts, source files, or configuration files to determine the intended entry point.
+
+As the project matures, this section should include:
+
+- How to start the project locally.
+- How to run tests, if tests are included.
