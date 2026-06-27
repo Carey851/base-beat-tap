@@ -107,3 +107,9 @@ If setup or usage is unclear:
 - Confirm that the repository was cloned successfully.
 - Check the project root for dependency or configuration files.
 - Review any scripts or commands defined by the project.
+- Make sure required tools are installed for the project type.
+- Update this README when a missing step is discovered.
+
+## Roadmap
+
+Potential future documentation improvements include:
