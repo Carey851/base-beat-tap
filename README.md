@@ -15,3 +15,11 @@ The current documentation is intentionally framework-neutral because the reposit
 Use this guide as a practical reference for cloning the project, reviewing its structure, and adding documentation as the project evolves.
 
 ## Repository
+
+Clone the repository with:
+
+```bash
+git clone https://github.com/Carey851/base-beat-tap.git
+```
+
+Then move into the project directory:
