@@ -125,3 +125,12 @@ Before submitting changes:
 5. Confirm that new instructions are accurate and easy to follow.
 
 If the project later adopts a formal contribution process, link to it from this section.
+
+## Troubleshooting
+
+If setup or usage is unclear, try the following steps:
+
+- Confirm that the repository was cloned successfully.
+- Make sure you are working from the project root directory.
+- Check for dependency, package, or configuration files.
+- Review available scripts or commands defined by the project.
