@@ -57,3 +57,12 @@ The exact structure may change over time.
 When new directories or important files are added, document them here so contributors can understand the layout quickly.
 
 ## Setup
+
+Start by cloning the repository:
+
+```bash
+git clone https://github.com/Carey851/base-beat-tap.git
+cd base-beat-tap
+```
+
+Next, inspect the repository files to determine the required environment and tooling.
