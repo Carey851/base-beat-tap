@@ -99,3 +99,12 @@ As the project develops, this section should include:
 - Any required configuration values.
 - Example commands for common workflows.
 - Notes about expected input and output, where applicable.
+
+## Development Notes
+
+When working on BaseBeatTap:
+
+- Keep changes focused and easy to review.
+- Follow the style and conventions already present in the repository.
+- Update documentation when setup, usage, or behavior changes.
+- Add comments when they clarify important decisions or non-obvious code.
