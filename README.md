@@ -134,3 +134,10 @@ If setup or usage is unclear, try the following steps:
 - Make sure you are working from the project root directory.
 - Check for dependency, package, or configuration files.
 - Review available scripts or commands defined by the project.
+- Verify that any required local tools are installed.
+- Search the source files for the expected entry point.
+- Update this README when a missing step is discovered.
+
+## Documentation Guidelines
+
+When adding new documentation:
