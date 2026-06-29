@@ -141,3 +141,12 @@ If setup or usage is unclear, try the following steps:
 ## Documentation Guidelines
 
 When adding new documentation:
+
+- Use clear headings.
+- Include commands when they are known and verified.
+- Keep examples short and practical.
+- Avoid documenting features that do not exist yet.
+- Explain required configuration only after it is supported by the project.
+- Keep this README useful for someone opening the repository for the first time.
+
+## Roadmap
