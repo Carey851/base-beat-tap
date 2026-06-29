@@ -66,3 +66,11 @@ cd base-beat-tap
 ```
 
 Next, inspect the repository files to determine the required environment and tooling.
+
+If the project includes dependency files, install dependencies using the appropriate tool for the files present in the repository.
+
+For example:
+
+- If a package manifest is present, use the matching package manager.
+- If a requirements file is present, install the listed dependencies.
+- If a build configuration file is present, follow the commands defined there.
