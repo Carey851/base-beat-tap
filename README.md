@@ -39,3 +39,13 @@ BaseBeatTap currently includes:
 - A README structure that can be expanded as the project grows.
 
 Additional features should be added to this section when they are implemented.
+
+## Project Structure
+
+After cloning the repository, review the files and folders in the project root.
+
+Common files and directories to look for include:
+
+- `README.md` for project documentation.
+- Source directories containing the main project code.
+- Dependency or package files that describe setup requirements.
