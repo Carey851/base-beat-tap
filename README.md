@@ -117,3 +117,11 @@ When working on BaseBeatTap:
 Contributions should follow the conventions already established in the repository.
 
 Before submitting changes:
+
+1. Review the existing files and documentation.
+2. Make a focused change.
+3. Test the change if a test process is available.
+4. Update documentation when needed.
+5. Confirm that new instructions are accurate and easy to follow.
+
+If the project later adopts a formal contribution process, link to it from this section.
