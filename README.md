@@ -74,3 +74,12 @@ For example:
 - If a package manifest is present, use the matching package manager.
 - If a requirements file is present, install the listed dependencies.
 - If a build configuration file is present, follow the commands defined there.
+- If no dependency file is present, review the source files for the intended setup.
+
+Avoid adding setup steps that are not supported by the repository files.
+
+## Usage
+
+After setup is complete, run the project using the commands provided by the repository files or project documentation.
+
+If no run command is documented yet, inspect the project for:
