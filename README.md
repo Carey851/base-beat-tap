@@ -150,3 +150,13 @@ When adding new documentation:
 - Keep this README useful for someone opening the repository for the first time.
 
 ## Roadmap
+
+Potential future documentation improvements include:
+
+- A confirmed setup process.
+- A verified local usage command.
+- A project structure overview based on the actual repository contents.
+- Testing instructions, if tests are added.
+- Build instructions, if a build process is added.
+- Configuration details, if configuration becomes required.
+- Contribution guidelines tailored to the project workflow.
