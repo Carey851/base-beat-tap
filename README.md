@@ -83,3 +83,12 @@ Avoid adding setup steps that are not supported by the repository files.
 After setup is complete, run the project using the commands provided by the repository files or project documentation.
 
 If no run command is documented yet, inspect the project for:
+
+- Available scripts.
+- Main source files.
+- Configuration files.
+- Build files.
+- Test files.
+- Existing examples or sample usage.
+
+As the project develops, this section should include:
