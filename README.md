@@ -49,3 +49,11 @@ Common files and directories to look for include:
 - `README.md` for project documentation.
 - Source directories containing the main project code.
 - Dependency or package files that describe setup requirements.
+- Configuration files for tools, formatting, linting, or builds.
+- Test directories or test configuration files, if present.
+
+The exact structure may change over time.
+
+When new directories or important files are added, document them here so contributors can understand the layout quickly.
+
+## Setup
