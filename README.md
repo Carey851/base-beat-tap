@@ -31,3 +31,11 @@ cd base-beat-tap
 ## Features
 
 BaseBeatTap currently includes:
+
+- A dedicated repository for the project.
+- A clear project name and source location.
+- A foundation for future development.
+- A place to document setup, usage, testing, and contribution details.
+- A README structure that can be expanded as the project grows.
+
+Additional features should be added to this section when they are implemented.
