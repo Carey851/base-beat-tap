@@ -160,3 +160,11 @@ Potential future documentation improvements include:
 - Build instructions, if a build process is added.
 - Configuration details, if configuration becomes required.
 - Contribution guidelines tailored to the project workflow.
+
+## Notes
+
+This README is intended to be a clean and maintainable starting point.
+
+As BaseBeatTap grows, update each section with accurate details from the repository.
+
+Keep the documentation aligned with the current state of the project so it remains useful for contributors and maintainers.
