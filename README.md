@@ -23,3 +23,11 @@ git clone https://github.com/Carey851/base-beat-tap.git
 ```
 
 Then move into the project directory:
+
+```bash
+cd base-beat-tap
+```
+
+## Features
+
+BaseBeatTap currently includes:
