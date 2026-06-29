@@ -108,3 +108,12 @@ When working on BaseBeatTap:
 - Follow the style and conventions already present in the repository.
 - Update documentation when setup, usage, or behavior changes.
 - Add comments when they clarify important decisions or non-obvious code.
+- Record important project decisions in this README or in a dedicated documentation file.
+- Prefer clear file names and predictable project organization.
+- Remove obsolete instructions when they no longer apply.
+
+## Contributing
+
+Contributions should follow the conventions already established in the repository.
+
+Before submitting changes:
